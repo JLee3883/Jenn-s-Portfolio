@@ -1,16 +1,18 @@
 body, html {
+    background-color: lightcyan;
     height: 100%;
     margin: 0;
     font-family:'Times New Roman', Times, serif;
 }
   
 .header-hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(placeholding-bear.jfif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Images/placeholding-bear.jfif);
     height: 50%;
+    position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    
 }
   
 .header-hero-text {
@@ -22,7 +24,29 @@ body, html {
     transform: translate(-50%, -50%);
     color: white;
 }
+ 
+.nav ul {
+    color:darkslategray;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+    max-width: 1000px;
+}
+
+.btn{
+    color:#999;
+    background:rgba(0, 0, 0);
+    padding:10px 20px;
+    text-decoration:none;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    text-align: center;
+}
   
-.header {
-    overflow: hidden;
+.btn:hover{
+    border:none;
+    background:rgba(0, 0, 0, 0.4);
+    background:#fff;
+    padding:20px;
+    color: #000;
 }
