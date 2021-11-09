@@ -86,3 +86,21 @@ body, html {
     background-color:lavenderblush;
     color: black;
 }
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+}
+
+.footer {
+    margin-bottom: 50px;
+    margin-top: 25px;
+    text-align: center;
+    padding: 25px;
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:lavenderblush;
+    color: black;
+}
