@@ -91,7 +91,17 @@ body, html {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 5vw);
-    grid-gap: 15px;
+    grid-gap: 70px;
+}
+
+.gallery__img::after {
+    content: "testing";
+    white-space: nowrap;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: flex;
+    -ms-flex-align: center;
 }
 
 .footer {
@@ -103,4 +113,74 @@ body, html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:lavenderblush;
     color: black;
+}
+
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+  
+.input, textarea {
+     border:0; outline:0;
+     padding: 1px;
+     border-radius: 8px;
+     display: block;
+     width: 100%;
+     margin-top: 5px;
+     font-family: 'Merriweather', sans-serif;
+     box-shadow(0 1px 1px rgba(black, 0.1));
+     resize: none;
+    
+    &:focus {
+       @include box-shadow(0 0px 2px rgba($red, 1)!important);
+    }
+}
+  
+#input-submit {
+     color: white; 
+     background:deeppink;
+     cursor: pointer;
+    
+    &:hover {
+       @include box-shadow(0 1px 1px 1px rgba(#aaa, 0.6)); 
+    }
+}
+  
+textarea {
+    height: 200px;
+  
+}
+
+
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.right { width: 50%; }
+
+.left {
+     margin-right: 2%; 
+}
+
+
+@media (max-width: 480px) {
+  .half {
+     width: 100%; 
+     float: none;
+     margin-bottom: 0; 
+  }
+}
+
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: "1"; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
 }

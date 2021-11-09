@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Assets/reset.css">
         <link rel="stylesheet" href="Assets/styles.css">
         <title>Jennifer's Portfolio</title>
     </head>
@@ -34,12 +35,31 @@
 
             <Section id="work" class="work gallery">
                 <h2>Work</h2>
-                <p>links to work pages</p>
+                    <figure class="gallery__img">
+                        <img src="./Assets/Images/placeholding-bear.jfif" class="gallery__img" alt="placeholding image of bear">
+                    </figure>
+                    <figure class="gallery__item gallery__item--2">
+                        <img src="./Assets/Images/placeholding-bear.jfif" class="gallery__img" alt="placeholding image of bear">
+                    </figure>
+                    <figure class="gallery__item gallery__item--3">
+                        <img src="./Assets/Images/placeholding-bear.jfif" class="gallery__img" alt="placeholding image of bear">
+                    </figure>
+                <p></p>
             </Section>
 
             <section id="contact" class="contact">
                 <h2>Contact Me</h2>
-                <p>email etc</p>
+                <form class="cf">
+                <div class="half left cf">
+                    <input type="text" id="input-name" placeholder="Name">
+                    <input type="email" id="input-email" placeholder="Email address">
+                    <input type="text" id="input-subject" placeholder="Subject">
+                </div>
+                <div class="half right cf">
+                    <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+                </div>  
+                <input type="submit" value="Submit" id="input-submit">
+                </form>
             </section>
     
         </main>
