@@ -17,6 +17,7 @@ body, html {
   
 .header-hero-text {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
     text-align: center;
     position: relative;
     top: 50%;
@@ -31,26 +32,28 @@ body, html {
     text-decoration: none;
     font-size: 25px;
     max-width: 1000px;
-    line-height: 2;
+    line-height: 1.5;
     align-items: center;
     
 }
 
 .btn{
     color:black;
-    background:darkgrey;
+    background: lightgray;
     padding:10px 20px 20px 20px;
     text-decoration:none;
     letter-spacing:2px;
     text-transform:uppercase;
     text-align: center;
+    
+    display:-webkit-inline-box
 }
   
 .btn:hover{
     border:none;
     background:rgba(0, 0, 0, 0.4);
     background:#fff;
-    padding:20px;
+    padding: 15px;
     color: #000;
 }
 
@@ -58,7 +61,27 @@ body, html {
     margin-bottom: 50px;
     margin-top: 25px;
     padding: 25px;
-    height: 300px;
+    height: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:lavenderblush;
+    color: black;
+}
+
+.work {
+    margin-bottom: 50px;
+    margin-top: 25px;
+    padding: 25px;
+    height: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:lavenderblush;
+    color: black;
+}
+
+.contact {
+    margin-bottom: 50px;
+    margin-top: 25px;
+    padding: 25px;
+    height: 200px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:lavenderblush;
     color: black;
