@@ -33,33 +33,39 @@
                 <p>Born and raised in Los Angeles California. I worked in healthcare behind the scenes in the administration side before I started looking at coding. After some thorough research and many thoughts, I finally decided to join the UCLA Bootcamp to learn and become a Full Stack Web Developer. Many concepts were learned and I finally found joy in finding solutions to the problems that arose along with the joy of creating something out of nothing. </p>
             </section>
 
-            <Section id="work" class="work gallery">
+            <Section id="work" class="work">
                 <h2>Work</h2>
-                    <figure class="gallery__img">
-                        <img src="./Assets/Images/placeholding-bear.jfif" class="gallery__img" alt="placeholding image of bear">
+                    <figure class="gallery">
+                        <img src="./Assets/Images/placeholding-bear.jfif"  alt="placeholding image of bear">
+                        <div class="desc">Project 1</div>
                     </figure>
-                    <figure class="gallery__item gallery__item--2">
-                        <img src="./Assets/Images/placeholding-bear.jfif" class="gallery__img" alt="placeholding image of bear">
+                    <figure class="gallery">
+                        <img src="./Assets/Images/placeholding-bear.jfif"  alt="placeholding image of bear">
+                        <div class="desc">Project 2</div>
                     </figure>
-                    <figure class="gallery__item gallery__item--3">
-                        <img src="./Assets/Images/placeholding-bear.jfif" class="gallery__img" alt="placeholding image of bear">
+                    <figure class="gallery">
+                        <img src="./Assets/Images/placeholding-bear.jfif"  alt="placeholding image of bear">
+                        <div class="desc">Project 3</div>
                     </figure>
                 <p></p>
             </Section>
 
             <section id="contact" class="contact">
                 <h2>Contact Me</h2>
-                <form class="cf">
-                <div class="half left cf">
-                    <input type="text" id="input-name" placeholder="Name">
-                    <input type="email" id="input-email" placeholder="Email address">
-                    <input type="text" id="input-subject" placeholder="Subject">
-                </div>
-                <div class="half right cf">
-                    <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
-                </div>  
-                <input type="submit" value="Submit" id="input-submit">
-                </form>
+                <form class="container" action="action_page.php">
+
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                
+                  </form>
             </section>
     
         </main>
