@@ -79,17 +79,7 @@ body, html {
     
 }
 
-.contact {
-    margin-bottom: 50px;
-    margin-top: 25px;
-    padding: 25px;
-    padding-bottom: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color:lavenderblush;
-    color: black;
-    display: flex;
-    flex-flow: row wrap;
-}
+
 .gallery {
     margin: 5px;
     border: 1px solid #ccc;
@@ -116,17 +106,16 @@ body, html {
     font-weight: bolder;
 }
 
-
-
-.footer {
-    margin-bottom: 100px;
+.contact {
+    margin-bottom: 50px;
     margin-top: 25px;
-    text-align: center;
     padding: 25px;
-    height: 75px;
+    padding-bottom: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:lavenderblush;
     color: black;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 input[type=text], select, textarea {
@@ -149,7 +138,6 @@ input[type=submit] {
     cursor: pointer;
 }
   
- 
 input[type=submit]:hover {
     background-color:darkturquoise;
 }
@@ -160,8 +148,21 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
     width: 50%;
-    margin:0 auto;
+    margin: 25px 25px 25px 180px;
 }
+
+.footer {
+    margin-bottom: 100px;
+    margin-top: 25px;
+    text-align: center;
+    padding: 25px;
+    height: 75px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:lavenderblush;
+    color: black;
+}
+
+
 
 @media only screen and (max-width: 992px) {
     .gallery__img {
