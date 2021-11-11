@@ -5,17 +5,21 @@ My Portfolio to showcase my skills
 # Code Table of Contents
 
 * Header
-* Body
-* Hero Secion
-* Content Figures Section
-* Aside Contents
+* Navigation Panel
+* "About Me" Secion
+* "Work" Section
+* "Contact Me" Sectoion
 * Footer
 
 # Mission
 
-My mission on this assignment was to refactor existing code to meet the standards assigned to me. The aim of this homework was for me to not only recognize the terminology further, but also to utlize it efficiently. It was difficult, but a very good learning experience in the world of coders. "Fix one, interrupt the rest". With my recently learned knowledge, I created and executed a working page with all that was necessary to complete my task.
+My mission on this assignment was to create my portfolio from scratch with methods I learned from class. I will continue to work on my portfolio and update it with newer skills and knowledge that I continue to learn. Ultimately, it will be the portfolio to which I present to future employers.
 
 # Process
+
+After my initial panic of having to start an html completely from scratch, I started with inputting the beginning skeleton with all the meta data and links to start styling my portfolio.
+
+I then drew a quick draft on good-ole' pen and paper of what it would look like. I started with making my
 
 I started by changing the semantics and spacing so that it was easier for me to read my code before I worked on it. This helped me stay organized a lot better and helped me pick up right after I left off whenever I needed to.
 

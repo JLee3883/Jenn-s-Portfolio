@@ -5,8 +5,8 @@ body, html {
     font-family:'Times New Roman', Times, serif;
 }
   
-.header-hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Images/web-dev-hero-img.jpg);
+.header-image {
+    background-image: url("../Images/web-dev-hero-img.jpg");
     height: 50%;
     position: relative;
     background-position: center;
@@ -23,7 +23,9 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color:white;
+    list-style: none;
+    
 }
  
 .nav ul {
@@ -71,7 +73,7 @@ body, html {
     margin-bottom: 50px;
     margin-top: 25px;
     padding: 25px;
-    height: 490px;
+    height: 450px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:lavenderblush;
     color: black;
@@ -84,7 +86,7 @@ body, html {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 500px;
+    width: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
