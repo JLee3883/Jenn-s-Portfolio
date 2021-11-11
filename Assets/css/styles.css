@@ -24,7 +24,7 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     color:white;
-    list-style: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;;
     
 }
  
