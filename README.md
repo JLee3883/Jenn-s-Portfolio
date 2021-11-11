@@ -17,27 +17,27 @@ My mission on this assignment was to create my portfolio from scratch with metho
 
 # Process
 
-After my initial panic of having to start an html completely from scratch, I started with inputting the beginning skeleton with all the meta data and links to start styling my portfolio.
+After my initial panic of having to start an html completely from scratch, I then drew a simple and quick draft on good-ole' pen and paper of what it would look like.
 
-I then drew a quick draft on good-ole' pen and paper of what it would look like. I started with making my
+I started with inputting the beginning skeleton with all the meta data and links to start styling my portfolio.
 
-I started by changing the semantics and spacing so that it was easier for me to read my code before I worked on it. This helped me stay organized a lot better and helped me pick up right after I left off whenever I needed to.
+Going in sequential order, I added the simple Navigation Bar and added the class so that it would snap to the area of the webpage it was referring to after clicking on it.
 
-Then I continued with correcting the class and id's as certain figures and text needed to be linked properly.
+Then I added a simple "About Me" section which I hope to add more to after gaining more experience and confidence throughout this course.
 
-Then I worked on accessibility and added all the alt to the figures which is needed for anyone to have access to the page.
+Moving on to the "Work" section, I added placeholding images of a bear simply enjoying his catch after his hunt. I too hope to feel that satisfaction after every project!
 
-Somewhere down the line, some code was misplaced, or bugged, so I had to go back and correct lines. This entailed me constantly changing and rechanging code and checking the html if it was working well.
+Toward the end of the webpage, I added a form to allow anyone to "Contact Me" simply by entering their information.
 
 I concluded by adding the finishing touches and final comment tags so that anyone else who read my code would be able to work it easily.
 
 # Finished!
 
-All in all, this was frustrating but honestly so fullfilling. The instant joy when a code is worked out or a page is debugged and when your final product is what it should be is so surprising. It's an overwhelming feeling of relief and satisfaction! I give thanks to all the direction, resources supplied and teamwork involved ❤️️
+In the beginning, I started with a rough draft of what I wanted it to be. In that process, I had researched and found styles that I added but wasn't familiar with or taught yet. It confused me and didn't deliver the webpage afterall. With help from my wonderful tutor, he aided me in removing things that just weren't necessary at this stage in my journey and guided me patiently in simplifying the webpage back to its core. Always be grounded in the basics.
 
 # Have a Look See
 
-<img src="./assets/images/Horiseon-Page.png">
+<img src="./assets/images/portfolio-page.png">
 
 
-# [See It For Yourself Here](https://jlee3883.github.io/Homework1/)
+# [See It For Yourself Here](https://jlee3883.github.io/Jenn-s-Portfolio/) ❤️️
