@@ -37,7 +37,7 @@ In the beginning, I started with a rough draft of what I wanted it to be. In tha
 
 # Have a Look See
 
-![](./assets/Images/portfolio-page.png)
+![](./Assets/Images/portfolio-page.png)
 
 
 # [See It For Yourself Here](https://jlee3883.github.io/Jenn-s-Portfolio/) ❤️️
