@@ -1,12 +1,12 @@
 body, html {
-    background-color: lightcyan;
+    background-color:rgb(236, 232, 232);
     height: 100%;
     margin: 0;
     font-family:'Times New Roman', Times, serif;
 }
   
 .header-image {
-    background-image: url("../Images/web-dev-hero-img.jpg");
+    background-image: url("../Images/hero-coding.jpg");
     height: 50%;
     position: relative;
     background-position: center;
@@ -16,7 +16,7 @@ body, html {
 }
   
 .header-hero-text {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     text-align: center;
     position: relative;
@@ -24,46 +24,15 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     color:white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;;
-    
-}
- 
-.nav ul {
-    color:darkslategray;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 25px;
-    max-width: 1000px;
-    line-height: 1.5;
-    align-items: center;
-    
-}
-
-.btn{
-    color:black;
-    background: lightgray;
-    padding:10px 20px 20px 20px;
-    text-decoration:none;
-    letter-spacing:2px;
-    text-transform:uppercase;
-    text-align: center;
-    
-    display:-webkit-inline-box
-}
-  
-.btn:hover{
-    border:none;
-    background:rgba(0, 0, 0, 0.4);
-    background:#fff;
-    padding: 15px;
-    color: #000;
+    text-shadow: -1px 0 black, 0 1px black, 10px 0 black, 0 -1px black;
+   
 }
 
 .about-me {
     margin-bottom: 50px;
     margin-top: 25px;
     padding: 25px;
-    height: 200px;
+    height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:lavenderblush;
     color: black;
@@ -72,34 +41,13 @@ body, html {
 .work {
     margin-bottom: 50px;
     margin-top: 25px;
-    padding: 25px;
-    height: 450px;
+    padding: 15px;
+    height: 590px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:lavenderblush;
     color: black;
     
     
-}
-
-
-.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
- 
-}
-  
-.gallery:hover {
-    border: 1px solid #777;
-}
-  
-.gallery img {
-    width: 100%;
-    height: auto;
 }
   
 .desc {
@@ -108,7 +56,7 @@ body, html {
     font-weight: bolder;
 }
 
-.contact {
+/* .contact {
     margin-bottom: 50px;
     margin-top: 25px;
     padding: 25px;
@@ -118,6 +66,31 @@ body, html {
     color: black;
     display: flex;
     flex-flow: row wrap;
+} */
+
+/* #contact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 15px;
+    opacity: 0.6;
+    letter-spacing: 6px;
+    padding-bottom: 80px;
+} */
+.info {
+    
+    background-color:lavenderblush;
+    padding: 3px;
+    transition: 0.3s;
+    /* cursor: pointer; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    font-size: large;
 }
 
 input[type=text], select, textarea {

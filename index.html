@@ -5,71 +5,108 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="Assets/reset/reset.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link rel="stylesheet" href="Assets/css/styles.css">
         <title>Jennifer's Portfolio</title>
     </head>
 
     <body>          <!--Heading-->        
         <header class="header-image">
-            <div class="header-hero-text">
-                <h1 style="font-size:100px">Jennifer Lee</h1>
+            <div class="header-hero-text text">
+                <h1 style="font-size:100px ">Jennifer Lee</h1>
                 <p style="font-size:40px">Full Stack Web Developer</p>
             </div>
         </header>
 
         <main>       <!--Navigation Panel-->
-            <nav class="nav ul">
-                <a href="#about-me" class="btn">About Me</a>
-                <a href="#work" class="btn">Work</a>
-                <a href="#contact" class="btn">Contact</a>
+            <nav>
+                <div class="nav-wrapper #bdbdbd grey lighten-1">
+                  <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+                </div>
             </nav>
     
                     <!--Section for "About Me"-->
-            <section id="about-me" class="about-me">
-                <h2>About Me</h2>
-                <p>Born and raised in Los Angeles California. I worked in healthcare behind the scenes in the administration side before I started looking at coding. After some thorough research and many thoughts, I finally decided to join the UCLA Bootcamp to learn and become a Full Stack Web Developer. Many concepts were learned and I finally found joy in finding solutions to the problems that arose along with the joy of creating something out of nothing. </p>
+            <section id="about-me" class="col s4 m4 l4 #ffebee red lighten-5">
+                <h2 class="header">About Me</h2>
+                <div class="card horizontal">
+                  <div class="card-stacked">
+                    <div class="card-content hoverable">
+                      <p>Born and raised in Los Angeles California. I worked in healthcare behind the scenes in the administration side before I started looking at coding. After some thorough research and many thoughts, I finally decided to join the UCLA Bootcamp to learn and become a Full Stack Web Developer. Many concepts were learned and I finally found joy in finding solutions to the problems that arose along with the joy of creating something out of nothing.</p>
+                    </div>
+                    
+                  </div>
+                </div>
             </section>
 
-                    <!--Section with placeholding images for "Work"-->
-            <Section id="work" class="work">
+                    <!--Section for "Work"-->
+            <section id="work" class="row work">
                 <h2>Work</h2>
-                    <figure class="gallery">
-                        <img src="./Assets/Images/placeholding-bear.jfif"  alt="placeholding image of bear">
-                        <div class="desc">Project 1</div>
-                    </figure>
-                    <figure class="gallery">
-                        <img src="./Assets/Images/placeholding-bear.jfif"  alt="placeholding image of bear">
-                        <div class="desc">Project 2</div>
-                    </figure>
-                    <figure class="gallery">
-                        <img src="./Assets/Images/placeholding-bear.jfif"  alt="placeholding image of bear">
-                        <div class="desc">Project 3</div>
-                    </figure>
-                <p></p>
-            </Section>
+                    <div class="col s4 m7 l4">
+                        <div class="card medium hoverable">
+                            <div class="card-image">
+                                <img src="./Assets/Images/moody movies and foodies.png">
+                            </div>
+                            <div class="card-content">
+                                <p>Application that suggests movies and foods based on your mood. Simply select any of the available moods in the dropdown panel that will generate movie cards with suggested genres and food cards to enjoy that will all compliment your mood.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://jlee3883.github.io/Moody-Moovies-and-Foodies/">Moody Moovies & Foodies Link</a>
+                                <a href="https://github.com/JLee3883/Moody-Moovies-and-Foodies">Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s4 m7 l4">
+                        <div class="card medium hoverable">
+                            <div class="card-image">
+                                <img src="./Assets/Images/password-generator.png">
+                            </div>
+                            <div class="card-content">
+                                <p>A random password generator that will meet certain criteria so that I can create a strong password that provides greater security.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://jlee3883.github.io/Password-Generator/">Password Generator Link</a>
+                                <a href="https://github.com/JLee3883/Password-Generator">Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s4 m7 l4">
+                        <div class="card medium hoverable">
+                            <div class="card-image">
+                                <img src="./Assets/Images/code-quiz.png">
+                            </div>
+                            <div class="card-content">
+                                <p>A simple timed code quiz on JavaScript fundamentals that stores high scores so that I can gauge my progress compared to my peers. </p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://jlee3883.github.io/Code-Quiz-Time/">Code Quiz Time Link</a>
+                                <a href="https://github.com/JLee3883/Code-Quiz-Time">Repo</a>
+                            </div>
+                        </div>
+                    </div>
+            </section>
 
-                    <!--Section for "Contact Me" which includes the contact form-->
-            <section id="contact" class="contact">
+                <!--Section for "Contact Me"-->
+            <section>
                 <h2>Contact Me</h2>
-                <form class="container" action="action_page.php">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <div id="contact" class="contact info">
+                    <a href="mailto:jlee04243@gmail.com" class="info" id="email" target="_blank">Email</a> |
+                    <a href="https://www.linkedin.com/in/jennifer-lee-6bb283225/" class="info" id="linkedin" target="_blank">LinkedIn</a> |
+                    <a href="https://github.com/JLee3883" class="info" id="instagram" target="_blank"> Github</a>
+                </div>
                 
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                
-                    <input type="submit" value="Submit">
-                  </form>
             </section>
         </main>
-                    <!--Footer Section-->
+
+        <!--Footer Section-->
         <footer class="footer">
             <p>Thank you for visiting!</p>
         </footer>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     </body>
 </html>
 
