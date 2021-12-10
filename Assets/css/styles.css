@@ -1,7 +1,6 @@
 body, html {
     background-color:rgb(236, 232, 232);
     height: 100%;
-    margin: 0;
     font-family:'Times New Roman', Times, serif;
 }
   
@@ -46,8 +45,6 @@ body, html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:lavenderblush;
     color: black;
-    
-    
 }
   
 .desc {
@@ -59,38 +56,14 @@ body, html {
 .info {
     
     background-color:lavenderblush;
-    padding: 3px;
-    transition: 0.3s;
-    /* cursor: pointer; */
     display: flex;
     justify-content: center;
-    text-align: center;
     flex-direction: row;
     font-size: large;
 }
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 5px;
-    resize: vertical
-}
   
-input[type=submit] {
-    background-color:paleturquoise;
-    color: black;
-    padding: 12px 20px;
-    border:purple;
-    border-radius: 4px;
-    cursor: pointer;
-}
-  
-input[type=submit]:hover {
-    background-color:darkturquoise;
+input:hover {
+    background-color:rgb(252, 210, 248);
 }
   
  
