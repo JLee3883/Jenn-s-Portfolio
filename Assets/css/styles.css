@@ -56,30 +56,6 @@ body, html {
     font-weight: bolder;
 }
 
-/* .contact {
-    margin-bottom: 50px;
-    margin-top: 25px;
-    padding: 25px;
-    padding-bottom: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color:lavenderblush;
-    color: black;
-    display: flex;
-    flex-flow: row wrap;
-} */
-
-/* #contact {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: row;
-    text-transform: uppercase;
-    font-weight: lighter;
-    font-size: 15px;
-    opacity: 0.6;
-    letter-spacing: 6px;
-    padding-bottom: 80px;
-} */
 .info {
     
     background-color:lavenderblush;
@@ -125,6 +101,13 @@ input[type=submit]:hover {
     width: 50%;
     margin: 25px 25px 25px 180px;
 }
+
+.contact {
+    font-size: large;
+}
+.findbtn{
+    background-color: #dec1e2;
+  }
 
 .footer {
     margin-bottom: 100px;
